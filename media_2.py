@@ -7,8 +7,8 @@ nota2 = float(input("Digite a segunda nota"))
 media = (nota1 + nota2) /2
 
 if media >= 7.0:
-    print(f"{nome} você teve um bom aproveitamento.")
+    print(f"{nome} sua média é {media} e você teve um bom aproveitamento.")
 
 else:
-    print(f"{nome} você não teve um bom aproveitamento.")
+    print(f"{nome} sua média é {media} e você não teve um bom aproveitamento.")
 
